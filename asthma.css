@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Arthritis_heading{
+    height:100px;
+    overflow:hidden;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 45px;
+    padding: 20px;
+    padding-top: 0px;
+    /* background-image: linear-gradient(0deg,rgba(255,255,255,1),rgba(0,0,0,.7)); */
+}
+
+.Arthritis_about{
+    width: 90%;
+    height:auto;
+    /* background-color: red/; */
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+
+
+.facts{
+    /* width:50%; */
+    /* height: 500px; */
+    /* background-image: url('images/arthritis/nine.jpg'); */
+    /* background-color: red; */
+    /* background-position: bottom; */
+    /* background-position: left bottom; */
+    margin: 20px;
+    margin-left: 30px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+
+   
+
+
+
+@media screen and (max-width: 800px){
+    .Arthritis_about{
+        width: 90%;
+        display: block;
+    }
+    
+    
+}
+
+.recent_stats{
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+
+
+.stats{
+    margin-top:20px;
+    margin:auto;
+    height:600px;
+    width: auto;
+
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 25px;
+    /* border-bottom: 1px solid; */
+    border-left: 1px solid;
+    overflow: hidden;
+}
+   
+
+.one{
+    background-image: url('images/asthma/one.jpg');
+    background-position: center;
+}
+
+.two{
+    background-image: url('images/asthma/two.jpg');
+    height:300px;
+    background-position: left;
+}
+
+.three{
+    background-image: url('images/asthma/three.png');
+    background-position: left;
+}
+
+.four{
+    background-image: url('images/asthma/four.png');
+}
+
+/* .five{
+    background-image: url('images/asthma/five.png');
+    background-position: left;
+} */
+
+.six{
+    background-image: url('images/asthma/six.png');
+    background-position: left;
+}
+
+.seven{
+    background-image: url('images/asthma/seven.jpg');
+}
+
+.eight{
+    background-image: url('images/asthma/eight.jpg');
+    /* border-bottom: 0px; */
+    margin-bottom: 50px;
+}
+
+.ten{
+    background-image: url('images/asthma/nine.jpg');
+    background-position: left;
+
+}
+
+
+
+
+
+@media  screen and (max-width:600px){
+    .stats{
+        height:200px;
+      
+}
+}
+ /* Footer */
+ #main-footer {
+    text-align: center;
+    background:rgba(51, 51, 51,.7);
+    color:#fff;
+    padding:20px; 
+}

@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    text-decoration-color:none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.header_theme{
+    width:100%;
+    height:600px;
+    background-image: url('./images/theme_template.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+#navbar {
+    background :rgba(51, 51, 51,.5);
+    color : #fff;
+    overflow : auto;
+    transition:5s;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar .logo{
+    float: left;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: top 20px;
+}
+#navbar ul{
+    list-style:none;
+    float:right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display:block;
+    padding: 20px;
+    text-align:center;
+}
+#navbar ul li a:hover{
+    /* background:#444; */
+    color:black;
+    font-size: 20px;
+    border-bottom: 2px solid black ;
+}
+
+@media  screen and (max-width:600px){
+    #navbar ul li a:hover{
+        font-size:15px;
+        transition: .5s;
+    }
+
+    
+}
+
+.header_element{
+    width: 35%;
+    height: 250px;
+    background-color: rgba(255,255,255,.6);
+    margin-left: 5%;
+    padding-top: 20px;
+    padding:20px;
+   
+    
+}
+
+.header_element_title{
+
+font-size: 50px;
+font-weight: normal;
+    font-size-adjust:auto;
+    font-family:'Times New Roman', Times, serif;
+    overflow-wrap: break-word;
+    letter-spacing: 1px;
+}
+
+.header_element_app{
+    font-size:20px;
+    border-bottom:2px solid;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.header_element_app:hover{
+
+    /* font-weight:bold; */
+    transition: .5s;
+    font-size: 25px;
+
+
+}
+
+@media  screen and (max-width: 800px){
+    .header_element{
+        width: 80%;
+    }
+}
